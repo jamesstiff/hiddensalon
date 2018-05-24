@@ -3,6 +3,8 @@ baseURL = "https://jamesstiff.github.io/hiddensalon"
 publishDir = "docs"
 languageCode = "en-us"
 
+theme = "hidden-salon"
+
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"

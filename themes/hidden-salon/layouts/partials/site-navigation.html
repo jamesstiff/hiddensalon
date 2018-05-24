@@ -1,0 +1,16 @@
+<nav class="w-100 ph5-l pa4 dib bb b--dashed bw2 bl-0 br-0 bt-0 " role="navigation">
+  <div class="fl w-100 w-third-l bg-blue">
+    <a href="{{ .Site.BaseURL }}" class="ph4 link dim black b f4 f3-ns dib lh-copy">
+      {{ .Site.Title }}
+    </a>
+  </div>
+  <div class="fl w-100 w-two-thirds-l bg-yellow">
+    {{ if .Site.Menus.main }}
+        {{ range .Site.Menus.main }}
+          <a class="ph4 link dim orange f4 f3-ns dib pr4 lh-copy" href="{{ .URL }}" title="{{ .Name }} page">
+            {{ .Name }}
+          </a>
+        {{ end }}
+    {{ end }}
+  </div>
+</nav>

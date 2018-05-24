@@ -1,0 +1,6 @@
+/* Put your custom styles here and run `npm start` from the "src" directory on */
+@import url("https://use.typekit.net/diq5xse.css");
+
+.sans-serif {
+  font-family: 'tk-futura-ptdelete';
+}
