@@ -1,5 +1,5 @@
 title = "Hidden Salon"
-baseURL = ""
+baseURL = "https://jamesstiff.github.io/hiddensalon/"
 publishDir = "docs"
 languageCode = "en-us"
 
