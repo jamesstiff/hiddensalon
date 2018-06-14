@@ -1,5 +1,5 @@
 title = "Hidden Salon"
-baseURL = ""
+baseURL = "/"
 themesDir = "themes"
 languageCode = "en-us"
 
