@@ -1,9 +1,10 @@
-{{ define "main" }}
-  <article class="ph5-l">
-    <div class="fl w-100 w-third-l ph4 pt2 tl lh-copy bg-yellow">
-        <p class="f4 f3-ns">Hairs by Claire&nbsp;Louise&nbsp;Ryder</p>
-      </div>
-      <div class="fl w-60-l ph4 pt2 tl lh-copy f4 f3-ns bg-orange">
+{{/* Alternative homepage layout */}}
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}{{ define "main" }}
+  <article class="ph5-l pt5-l pt4">
+    <div class="fl w-100 w-third-l ph4 tc lh-copy">
+      <p class="f4 f3-ns">Hair by Claire&nbsp;Louise&nbsp;Ryder</p>
+    </div>
+    <div class="fl w-60-l ph4 tl lh-copy f4 f3-ns mb5-l mb4">
       {{ .Content }}
     </div>
   </article>
@@ -11,7 +12,7 @@
     {{ $paginator := .Paginate (where .Data.Pages "Section" .Section) }}
     <section class="flex-ns flex-wrap justify-around mt5">
       {{ range  $paginator.Pages }}
-        <div class="relative w-100  mb4 bg-white">
+        <div class="relative w-100  mb4">
           {{ partial "summary.html" . }}
         </div>
       {{ end }}

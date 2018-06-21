@@ -4,7 +4,9 @@ date: 2018-02-13T11:57:57Z
 draft: false
 ---
 
-**Hidden Salon has emerged from my background in fine art and textile design, a passion for the aesthetically pleasing and my experience as a hair stylist.**
+**Hidden Salon is a creative, relaxed hair salon based in Old Trafford, Manchester.**
+
+Hidden Salon has emerged from my background in fine art and textile design, a passion for the aesthetically pleasing and my experience as a hair stylist.
 
 I understand that we all have busy lives and finding time for yourself is sometimes difficult. I have created a professional mini salon to give you your own individual, relaxing and client centred experience.
 
@@ -22,5 +24,3 @@ My salon is an extension of myself and my values, below are some things that are
 * Environmentally conscious
 * Supports independent local business
 * Being part of the local community
-
-[Prices and opening times](/)
