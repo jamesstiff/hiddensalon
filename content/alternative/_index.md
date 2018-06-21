@@ -1,5 +1,5 @@
 ---
-title: About
+title: Alternative
 date: 2018-02-13T11:57:57Z
 draft: false
 ---
